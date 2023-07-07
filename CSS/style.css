@@ -29,9 +29,14 @@
 .Form-heading{
     text-align: center;
 }
+.form-textarea{
+    width: 100%;
+}
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .form-container{
         width: 50%;
     }
+    
   }
+  
