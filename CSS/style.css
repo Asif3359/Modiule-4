@@ -1,0 +1,47 @@
+
+.nav-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    list-style: none;
+    padding:13px;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+}
+.nav-li:hover{
+    background-color: rgba(155, 155, 155, 0.634);
+    color: black; 
+}
+.form-img{
+    width: 200px;
+}
+.form-container{
+    border: 1px solid rgb(137, 137, 137);
+    display:block;
+    width: 50%;
+    margin: 20px;
+    box-shadow: 1px 1px 4px gray ;
+    padding: 15px;
+
+}
+.from-link-li{
+    /* width: 50%; */
+    padding: 4px;
+    background-color: rgb(229, 229, 229);
+}
+.from-link-a{
+    color: black;
+}
+.form-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
