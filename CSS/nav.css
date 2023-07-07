@@ -1,0 +1,21 @@
+.nav-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    list-style: none;
+    padding:13px;
+}
+.nav-a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+.nav-li:hover{
+    background-color: rgba(155, 155, 155, 0.634);
+    color: black; 
+}
