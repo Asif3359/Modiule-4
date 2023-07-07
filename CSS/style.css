@@ -5,7 +5,7 @@
 .form-container{
     border: 1px solid rgb(137, 137, 137);
     display:block;
-    width: 40%;
+    width: 100%;
     margin: 20px;
     box-shadow: 1px 1px 4px gray ;
     padding: 15px;
@@ -24,6 +24,7 @@
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
 .Form-heading{
     text-align: center;
